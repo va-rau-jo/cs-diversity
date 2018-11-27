@@ -4,25 +4,24 @@
       <link rel="stylesheet" type="text/css" href="./css/home.css">
       <link rel="stylesheet" type="text/css" href="./css/header.css">
       <link rel="stylesheet" type="text/css" href="./css/index.css">
-      <title>Page Title</title>
+      <title>Discrimination in Computer Science</title>
     </head>
 
     <body>        
-        <div class='appHeader'>
-          
+        <div class='appHeader'>          
             <h1 style="color:bisque; float:left; margin-left: 20px" >
                 Discrimination in Computer Science  
               </h1>
-          <div id='links'>
-            
+          <div id='links'>            
+              <a class = 'navLink' aria-current = 'false' href = "index.html"> Home </a>
               <a class = 'navLink' aria-current = 'false' href = "analysis.html"> Analysis </a>
-              <a class = 'navLink' aria-current = ' false' href = "analysis.html"> Analysis </a>
+              <a class = 'navLink' aria-current = ' false' href = "support.html"> Support </a>
           </div>
         </div>
         
         <br/><br/>
 
-        <div class="container" >
+        <div class="container" > <!-- The Problem Container -->
           <h1 class="center-align">
             The Problem
           </h1>
@@ -40,120 +39,49 @@
             <a href="https://www.wired.com/story/computer-science-graduates-diversity/" class="reference" style="float:right; margin-right: 70px"> Statistics from Wired.com </a>
           
             <br/> <br/>
-            <p style="width:50%; text-align: left">
+            <p>
               A study done by the Pew Research Center in Washington D.C. surveyed thousands of STEM workers and was able to draw several key insights on the 
               lives of minority workers in these fields. Although companies are required by law to be equal opportunity employers and pride themselves on 
               being inclusive to everyone, there are vast differences between white employees and the minority employees.
             </p>
+            <div>
+              <h2> See the statistics yourself! </h2>
+              <img class="slide" onclick="plusDivs(+1)" src="assets/pew_research_center_stats1.png">
+              <img class="slide" onclick="plusDivs(+1)" src="assets/pew_research_center_stats2.png">
+              <img class="slide" onclick="plusDivs(+1)" src="assets/pew_research_center_stats3.png">
+              <img class="slide" onclick="plusDivs(+1)" src="assets/pew_research_center_stats4.png">
+              <img class="slide" onclick="plusDivs(+1)" src="assets/pew_research_center_stats5.png">
+              <img class="slide" onclick="plusDivs(+1)" src="assets/pew_research_center_stats6.png">
+              <img class="slide" onclick="plusDivs(+1)" src="assets/pew_research_center_stats7.png">
+              <img class="slide" onclick="plusDivs(+1)" src="assets/pew_research_center_stats8.png">
+              <img class="slide" onclick="plusDivs(+1)" src="assets/pew_research_center_stats9.png">
+            </div>
+            <p>
+              Few people consider this to be a minor problem, as around 80% of people in the United States consider ethnic diversity in the workplace to be<a href="http://www.pewsocialtrends.org/2018/01/09/women-and-men-in-stem-often-at-odds-over-workplace-equity/ps_2018-01-09_stem_4-01/">"at least somewhat important."</a>
+              The truth is that there are several reasons behind this discrepancy and I explore those reasons in my<a href="analysis.html">analysis.</a> 
+            </p>
           </div>
-
-
         </div>
-          <div className="container">
-            <section id="top">
-              <div className ="row">
-                <div className ="col m10 offset-m1 s12 ">
-                  <div className ="center-align">
-                    <img style={{ marginTop: "40px" }} className ="responsive-img" src="./assets/logo.png" alt='logo'/>
-                  </div>
-                  <p className="center-align italic-light">
-                    Illuminating the path between the dreams of today and the healthcare of tommorow.
-                        </p>
-                  <div className="center-align">
-                    <img className="responsive-img" src="./assets/roadmap.png" alt='roadmap'/>
-                  </div>
-                  <div className="col s10 offset-s1">
-                    <p className="quote">
-                      Thousands of students in need. Five states with shortages of primary care physicians. One medical school trying to turn the
-                      tide. As part of UW Medicine,
-                                <b>Waypoint</b> maps the healthcare education pipeline so that programs can coordinate their
-                      outreach, and students can find the services they need to succeed as healthcare professionals.
-                            </p>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-
-            <section id="problem">
-
-              <div className="row">
-                <div className="col m10 offset-m1 s12">
-                  <h2 className="center-align">Why Waypoint?</h2>
-                  <p className="flow-text">
-                    Since the 1970’s health professionals have known of a lack of primary care physicians
-                    in the Greater Pacific Northwest region.
-                    As the only accredited medical school in the area, the task fell on the UW School of Medicine
-                    to solve this problem.
-                        </p>
-
-                  <div className="row">
-                    <div className="col s8 xs12 offset-s2 center-align">
-                      <img className="responsive-img" src="./assets/statesBig.png" alt='wwami region'/>
-                      <p className="italic-light">The five states of the WWAMI Region.</p>
-                    </div>
-                  </div>
-
-                  <p className="flow-text">
-                    Over the next decades the School of Medicine would create the
-                            <b>WWAMI initiative</b>, an innovative approach to promoting health care careers in underserved
-                    areas with targeted youth outreach and medical residencies.
-                        </p>
-
-                  <h3>But there's a problem...</h3>
-
-                  <p className="flow-text">
-                    No one knows where this outreach is working and what areas need help. Students fall off the map, programs can't collaborate,
-                    and the initiative suffers as a whole.
-                        </p>
-                </div>
-              </div>
-            </section>
-            <section id="solution">
-              <div className="row">
-                <div className="col m10 offset-m1 s12">
-                  <h2 className="center-align">Guide the Way</h2>
-                  <div className="center-align">
-                    <img className="responsive-img" src="./assets/Map-Initial-View.svg" alt='map'/>
-                    <p className="italic-light">
-                      With the mapping tool, students can easily find relevant programs in their area.
-                            </p>
-                  </div>
-
-
-                  <p className="flow-text">
-                    Waypoint offers students and partnering organizations a simple information hub for finding and connecting with outreach programs.
-                    No longer do students risk the chance of not continuing their involment, and no longer do organizations
-                    have to jump through hurdles just to connect and collaborate with similar offerings in their
-                    area of operation.
-                        </p>
-                  <h3>Process as a Product</h3>
-
-                  <p className="flow-text">
-                    The data that fuels Waypoint was created practically from scratch. We designed a method of data collection for the WWAMI
-                    Inititiave that enables them to collect clean, extensive information for an ever growing number
-                    of outreach programs. As more organizations provide this information, Waypoint will provide a
-                    greater wealth of information.
-                        </p>
-                  <div className="center-align">
-                    <img className="responsive-img" src="./assets/steps.svg" alt='pipeline steps'/>
-                    <p className="italic-light">
-                      Creating a robust API for accessing the data collected allows future teams to utilize its potential to the fullest.
-                            </p>
-                  </div>
-
-                  <p className="flow-text">
-                    Waypoint was built on the premise that good tools rely on good data. Knowing that organizational needs change, we made the
-                    database that houses all of the information we've gathered available as its own tool. Through
-                    our partner Seattle Data for Good, all of the details of this project and instructions for using
-                    the data derived from it will be made available to an entire community of innovators who will
-                    continue to help the WWAMI Initiative acheive its goal of eliminating the shortage of physicians
-                    in areas of need.
-                        </p>
-                </div>
-              </div>
-            </section>
-          </div>
-        </main>
     </body>
 </html>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "inline"; 
+}
+
+</script>
