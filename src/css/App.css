@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.appTitle {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.current {
+  border-bottom: 4px solid white;
+}
+
+button {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: white;
+  color: #4b2e83;
+  border-radius: 5px;
+  border-color: #4b2e83
+}
+
+hr {
+  border-top: solid 1px #4b2e83;
+}

@@ -1,0 +1,38 @@
+.appHeader {
+  background-color: #4b2e83;
+  color: white;
+  height: 65px;
+}
+
+#HomeLink img {
+  margin-top: 6px;
+  margin-left: 10px;
+  width: 220px;
+  float: left;
+}
+
+#links {
+  float: right;
+  padding-top: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.navLink:hover {
+  color: #b7a57a !important;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navLink {
+  color: white !important;
+  margin: 10px;
+}
+
+.curRoute {
+  border-bottom: 1px solid white;
+}
+
