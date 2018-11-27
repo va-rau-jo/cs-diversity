@@ -1,26 +1,65 @@
-import React from 'react';
-import {withRouter} from 'react-router';
-import '../css/home.css';
+<!DOCTYPE html>
+<html>
+    <head>      
+      <link rel="stylesheet" type="text/css" href="./css/home.css">
+      <link rel="stylesheet" type="text/css" href="./css/header.css">
+      <link rel="stylesheet" type="text/css" href="./css/index.css">
+      <title>Page Title</title>
+    </head>
 
-const Home = () => {
-  return (
-    <React.Fragment>
-         <main 
-          style={{margin: "auto", width: "57%"}}
-          className="home-wrapper"
-        >
+    <body>        
+        <div class='appHeader'>
+          
+            <h1 style="color:bisque; float:left; margin-left: 20px" >
+                Discrimination in Computer Science  
+              </h1>
+          <div id='links'>
+            
+              <a class = 'navLink' aria-current = 'false' href = "analysis.html"> Analysis </a>
+              <a class = 'navLink' aria-current = ' false' href = "analysis.html"> Analysis </a>
+          </div>
+        </div>
+        
+        <br/><br/>
+
+        <div class="container" >
+          <h1 class="center-align">
+            The Problem
+          </h1>
+
+          <div class="content">
+            <p> 
+              There is a big discrepancy in the percentage of minority workers in computer science compared to other jobs. Even compared to other STEM fields, 
+              there are much fewer percentages of black, hispanic, and women computer scientists. Even with a growing emphasis on making computer science more 
+              inclusive, the numbers have simply not increased as much as they should have.
+            </p>
+
+            <img src= "assets/wired-1991-percentage.jpg" alt = "1991 Percentage"/>
+            <img src= "assets/wired-2015-percentage.jpg" alt = "2015 Percentage"/>
+            <br>
+            <a href="https://www.wired.com/story/computer-science-graduates-diversity/" class="reference" style="float:right; margin-right: 70px"> Statistics from Wired.com </a>
+          
+            <br/> <br/>
+            <p style="width:50%; text-align: left">
+              A study done by the Pew Research Center in Washington D.C. surveyed thousands of STEM workers and was able to draw several key insights on the 
+              lives of minority workers in these fields.
+            </p>
+          </div>
+
+
+        </div>
           <div className="container">
             <section id="top">
               <div className ="row">
                 <div className ="col m10 offset-m1 s12 ">
                   <div className ="center-align">
-                    <img style={{ marginTop: "40px" }} className ="responsive-img" src="./assets/logo.png" alt="logo"/>
+                    <img style={{ marginTop: "40px" }} className ="responsive-img" src="./assets/logo.png" alt='logo'/>
                   </div>
                   <p className="center-align italic-light">
                     Illuminating the path between the dreams of today and the healthcare of tommorow.
                         </p>
                   <div className="center-align">
-                    <img className="responsive-img" src="./assets/roadmap.png" alt="roadmap"/>
+                    <img className="responsive-img" src="./assets/roadmap.png" alt='roadmap'/>
                   </div>
                   <div className="col s10 offset-s1">
                     <p className="quote">
@@ -49,7 +88,7 @@ const Home = () => {
 
                   <div className="row">
                     <div className="col s8 xs12 offset-s2 center-align">
-                      <img className="responsive-img" src="./assets/statesBig.png" alt="wwami region"/>
+                      <img className="responsive-img" src="./assets/statesBig.png" alt='wwami region'/>
                       <p className="italic-light">The five states of the WWAMI Region.</p>
                     </div>
                   </div>
@@ -96,7 +135,7 @@ const Home = () => {
                     greater wealth of information.
                         </p>
                   <div className="center-align">
-                    <img className="responsive-img" src="./assets/steps.svg" alt="pipeline steps"/>
+                    <img className="responsive-img" src="./assets/steps.svg" alt='pipeline steps'/>
                     <p className="italic-light">
                       Creating a robust API for accessing the data collected allows future teams to utilize its potential to the fullest.
                             </p>
@@ -115,8 +154,5 @@ const Home = () => {
             </section>
           </div>
         </main>
-    </React.Fragment>
-      );
-    };
-    
-    export default withRouter(Home);
+    </body>
+</html>
