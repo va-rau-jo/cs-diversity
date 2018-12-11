@@ -105,3 +105,8 @@ p {
     text-align: left;
     margin-bottom: 10px; 
 }
+
+.analysis_header {
+    line-height: 100%;
+    font-weight: bold;
+}
